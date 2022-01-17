@@ -31,7 +31,7 @@ export function HomeScreen({ route, navigation }) {
             1000
           );
         } else {
-          console.log("Siging not successfull");
+          console.log("Sign in not successful");
         }
       })
       .catch((error) => {
@@ -43,7 +43,7 @@ export function HomeScreen({ route, navigation }) {
     <View style={styles.screen}>
       <View style={styles.buttonContainer}>
         <Button
-          title="Google SignIn"
+          title="Sign in with Google!"
           onPress={handleGoogleSignIn}
           style={styles.button}
         />
